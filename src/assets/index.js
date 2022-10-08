@@ -1,0 +1,1 @@
+export { default as dog } from "./img/dog.png";

@@ -1,0 +1,24 @@
+.Header {
+  z-index: 1;
+  display: flex;
+  padding: 0rem 5rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #78c2ad;
+  color: #fbfcf4;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.Header .Logo {
+  background-image: url(../../../assets/img/dog.png);
+  background-position-y: -7px;
+  background-position-x: -35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 220%;
+  /* overflow: hidden; */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #e88f93;
+}

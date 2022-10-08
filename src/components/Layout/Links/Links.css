@@ -1,0 +1,28 @@
+.Links {
+  background-color: #cce8e0;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Links a {
+  background-color: #78c2ad;
+  color: #fbfcf4;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 500;
+  padding: 1.4rem;
+  font-size: 1.4rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+.Links a:hover {
+  background-color: #609b8a;
+  transition: 0.2s ease;
+}
+
+.hide {
+  display: none;
+}

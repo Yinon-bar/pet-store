@@ -1,0 +1,25 @@
+.Layout {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Layout .Header {
+  height: 10%;
+  flex-basis: 100%;
+}
+
+.Layout .Links {
+  flex-basis: 20%;
+  height: 83%;
+}
+
+.Layout .Home {
+  height: 83%;
+  flex-basis: 80%;
+}
+
+.Layout .Footer {
+  height: 7%;
+  flex-basis: 100%;
+}

@@ -1,0 +1,36 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  background-color: #fbfcf4;
+  z-index: 0;
+  color: #343a40;
+}
+
+.Home h2 {
+  margin-bottom: 2rem;
+}
+
+.Home .btns {
+  display: flex;
+  margin: 2rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Home .btns button {
+  background-color: #f3969a;
+  border-radius: 1rem;
+  border: none;
+  padding: 1rem 2rem;
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #343a40;
+  cursor: pointer;
+}
+
+.Home .youtube {
+  align-self: center;
+  margin-bottom: 2rem;
+}
