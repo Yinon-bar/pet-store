@@ -1,3 +1,3 @@
-# Pet Store Project
+# Pet Store Project 🐶
 
 ### A project from John Bryce Collage
