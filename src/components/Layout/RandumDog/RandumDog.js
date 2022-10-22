@@ -12,11 +12,12 @@ function RandumDog() {
 
   useEffect(() => {
     const dogsArray = [
-      "Pitbull",
-      "German Sheperd",
-      "border koli",
-      "labradour",
+      "Pit bull",
+      "German Shepherd",
+      "Border Collie",
+      "Labrador retriever",
       "Labradoodle",
+      "Dogue de Bordeaux",
     ];
     const intervalId = setInterval(() => {
       const returnNum = rndNum(dogsArray);
