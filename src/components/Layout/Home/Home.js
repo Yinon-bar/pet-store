@@ -1,4 +1,11 @@
+import AnimalCat from "../AnimalCategory/AnimalCat";
 import "./Home.css";
+import dogs from "../../../assets/img/dogs.jpg";
+import cats from "../../../assets/img/cats.png";
+import fishes from "../../../assets/img/fishes.png";
+import parrot from "../../../assets/img/parrot.png";
+import rodents from "../../../assets/img/rodents.png";
+import RandumDog from "../RandumDog/RandumDog";
 
 function Home() {
   function alertFunc(arg) {
@@ -8,6 +15,34 @@ function Home() {
 
   return (
     <div className="Home">
+      <div className="Animals">
+        <AnimalCat
+          cName="כלבים"
+          cDesc="כאן תוכלו למצוא מגוון ענק של כלבים לאימוץ"
+          cImg={dogs}
+        />
+        <AnimalCat
+          cName="חתולים"
+          cDesc="כאן תוכלו למצוא מגוון ענק של כלבים לאימוץ"
+          cImg={cats}
+        />
+        <AnimalCat
+          cName="דגי נוי"
+          cDesc="כאן תוכלו למצוא מגוון ענק של כלבים לאימוץ"
+          cImg={fishes}
+        />
+        <AnimalCat
+          cName="תוכים"
+          cDesc="כאן תוכלו למצוא מגוון ענק של כלבים לאימוץ"
+          cImg={parrot}
+        />
+        <AnimalCat
+          cName="מכרסמים"
+          cDesc="כאן תוכלו למצוא מגוון ענק של כלבים לאימוץ"
+          cImg={rodents}
+        />
+      </div>
+      <RandumDog />
       <h2>שלום משתמש</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita

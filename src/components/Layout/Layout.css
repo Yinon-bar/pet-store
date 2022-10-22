@@ -11,7 +11,7 @@
 
 .Layout .Links {
   flex-basis: 20%;
-  height: 83%;
+  min-height: 83%;
 }
 
 .Layout .Home {

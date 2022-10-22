@@ -1,7 +1,7 @@
 .Home {
   display: flex;
   flex-direction: column;
-  padding: 5rem;
+  padding: 1rem;
   background-color: #fbfcf4;
   z-index: 0;
   color: #343a40;
@@ -33,4 +33,9 @@
 .Home .youtube {
   align-self: center;
   margin-bottom: 2rem;
+}
+
+.Animals {
+  display: flex;
+  flex-direction: row;
 }
