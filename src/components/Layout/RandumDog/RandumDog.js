@@ -31,7 +31,8 @@ function RandumDog() {
 
   return (
     <div className="RandumDog">
-      <h3>{rndDog}</h3>
+      <h3>סוגי כלבים גזעיים במאגר כרגע:</h3>
+      <h3 id="dog"> {rndDog}</h3>
     </div>
   );
 }

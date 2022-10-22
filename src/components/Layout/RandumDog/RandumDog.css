@@ -1,0 +1,15 @@
+.RandumDog {
+  background-color: #f3969a;
+  padding: 1rem;
+  direction: rtl;
+  border-radius: 1rem;
+}
+
+.RandumDog h3 {
+  font-weight: 400;
+  text-align: center;
+}
+
+.RandumDog #dog {
+  font-weight: 600;
+}
