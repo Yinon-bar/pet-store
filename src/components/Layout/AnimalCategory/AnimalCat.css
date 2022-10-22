@@ -1,4 +1,5 @@
 .AnimalCat {
+  text-align: center;
   background-color: #cce8e0;
   padding: 1rem;
   width: 25%;
@@ -21,4 +22,8 @@
 
 .AnimalCat img {
   border-radius: 0.6rem;
+}
+
+.AnimalCat h2 {
+  font-weight: 400;
 }
