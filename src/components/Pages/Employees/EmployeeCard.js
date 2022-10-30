@@ -1,9 +1,9 @@
 import "./EmployeeCard.css";
 
-function EmployeeCard() {
+function EmployeeCard(props) {
   return (
     <div className="EmploteeCard">
-      <h1>Employee</h1>
+      <h1>{props.name.first}</h1>
       <h1>Employee</h1>
     </div>
   );

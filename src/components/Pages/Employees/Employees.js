@@ -1,7 +1,10 @@
 import { useEffect } from "react";
+import EmployeeCard from "./EmployeeCard";
 import "./Employees.css";
 
 function Employees() {
+  const employeeArray = [];
+
   useEffect(() => {
     fetch("https://randomuser.me/api/?results=5")
       .then((resp) => resp.json())
@@ -11,7 +14,9 @@ function Employees() {
   return (
     <div className="Employees">
       Epmloyee
-      <h1>{}</h1>
+      {employeeArray.map((empObj) => (
+        <EmployeeCard key="empObj.results.id.value" data="empObj" />
+      ))}
     </div>
   );
 }
