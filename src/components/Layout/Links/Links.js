@@ -10,6 +10,7 @@ function Links() {
       <NavLink to="/home">דף הבית</NavLink>
       <NavLink to="/products">מוצרים</NavLink>
       <NavLink to="/testimonials">סיפורי הצלחה</NavLink>
+      <NavLink to="/employees">צוות העובדים</NavLink>
       <NavLink to="/about">אודות</NavLink>
     </div>
   );
