@@ -1,7 +1,7 @@
 import "./Layout.css";
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
-import Home from "./Home/Home";
+import Main from "./Home/Main";
 import Links from "./Links/Links";
 
 function Layout() {
@@ -9,7 +9,7 @@ function Layout() {
     <div className="Layout">
       <Header />
       <Links />
-      <Home />
+      <Main />
       <Footer />
     </div>
   );

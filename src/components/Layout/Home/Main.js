@@ -1,21 +1,23 @@
 import AnimalCat from "../AnimalCategory/AnimalCat";
-import "./Home.css";
+import "./Main.css";
 import dogs from "../../../assets/img/dogs.jpg";
 import cats from "../../../assets/img/cats.png";
 import fishes from "../../../assets/img/fishes.png";
 import parrot from "../../../assets/img/parrot.png";
 import rodents from "../../../assets/img/rodents.png";
 import RandumDog from "../RandumDog/RandumDog";
+import Routing from "../Routing/Routing";
 
-function Home() {
+function Main() {
   function alertFunc(arg) {
     console.log(arg);
     alert(`לחצת את כפתור ${arg.target.firstChild.data}`);
   }
 
   return (
-    <div className="Home">
-      <div className="Animals">
+    <div className="Main">
+      <Routing />
+      {/* <div className="Animals">
         <AnimalCat
           cName="כלבים"
           cDesc="כאן תוכלו למצוא מגוון ענק של כלבים לאימוץ"
@@ -40,18 +42,18 @@ function Home() {
           cName="מכרסמים"
           cDesc="כאן תוכלו למצוא מגוון ענק של כלבים לאימוץ"
           cImg={rodents}
-        />
-      </div>
-      <RandumDog />
-      <h2>שלום משתמש</h2>
+        /> */}
+      {/* </div> */}
+      {/* <RandumDog /> */}
+      {/* <h2>שלום משתמש</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
         veritatis nulla modi doloribus neque provident impedit dolores error
         iure, veniam quis atque animi amet cumque molestiae! At accusantium
         voluptatibus delectus, recusandae tempore deleniti et. Saepe error totam
         nam officiis, omnis amet eos quis eum, esse rem quo dicta autem sunt!
-      </p>
-      <br />
+      </p> */}
+      {/* <br />
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam,
         eligendi. Molestias temporibus illum minima similique quaerat id numquam
@@ -63,16 +65,16 @@ function Home() {
         nisi tempore aperiam in officia consequuntur, veniam repudiandae esse.
         Aperiam atque vero dicta minus eos non, nam nobis officia, earum
         dignissimos delectus voluptate, porro amet.
-      </p>
-      <div className="btns">
+      </p> */}
+      {/* <div className="btns">
         <button onClick={(e) => alertFunc(e)} key="btn1">
           הרשמה לאתר
         </button>
         <button onClick={(e) => alertFunc(e)} key="btn2">
           קרא עוד
         </button>
-      </div>
-      <div className="youtube">
+      </div> */}
+      {/* <div className="youtube">
         <iframe
           width="400"
           height="315"
@@ -81,9 +83,9 @@ function Home() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-      </div>
+      </div> */}
     </div>
   );
 }
 
-export default Home;
+export default Main;
