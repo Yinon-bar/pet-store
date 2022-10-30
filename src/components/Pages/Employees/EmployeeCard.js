@@ -3,8 +3,8 @@ import "./EmployeeCard.css";
 function EmployeeCard(props) {
   return (
     <div className="EmploteeCard">
-      <h1>{props.name.first}</h1>
-      <h1>Employee</h1>
+      {console.log(props.data.name.first)}
+      <h3>{props.data.name.first}</h3>
     </div>
   );
 }

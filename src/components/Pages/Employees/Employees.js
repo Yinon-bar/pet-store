@@ -1,21 +1,26 @@
+import { useState } from "react";
 import { useEffect } from "react";
 import EmployeeCard from "./EmployeeCard";
 import "./Employees.css";
 
 function Employees() {
-  const employeeArray = [];
+  let [employeeArray, setEmployeeArray] = useState([]);
 
   useEffect(() => {
     fetch("https://randomuser.me/api/?results=5")
       .then((resp) => resp.json())
-      .then((data) => console.log(data));
-  });
+      .then((data) => {
+        setEmployeeArray(data.results);
+      });
+  }, []);
+
+  let id = 0;
 
   return (
     <div className="Employees">
-      Epmloyee
+      {console.log(employeeArray)}
       {employeeArray.map((empObj) => (
-        <EmployeeCard key="empObj.results.id.value" data="empObj" />
+        <EmployeeCard key={id++} data={empObj} />
       ))}
     </div>
   );
