@@ -8,9 +8,9 @@ function Links() {
   return (
     <div className="Links">
       <NavLink to="/home">דף הבית</NavLink>
-      <NavLink to="/product">מוצרים</NavLink>
+      <NavLink to="/products">מוצרים</NavLink>
       <NavLink to="/testimonials">סיפורי הצלחה</NavLink>
-      <NavLink to="about">אודות</NavLink>
+      <NavLink to="/about">אודות</NavLink>
     </div>
   );
 }

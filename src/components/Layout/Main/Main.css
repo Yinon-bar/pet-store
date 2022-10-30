@@ -1,4 +1,4 @@
-.Home {
+.Main {
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -7,18 +7,18 @@
   color: #343a40;
 }
 
-.Home h2 {
+.Main h2 {
   margin-bottom: 2rem;
 }
 
-.Home .btns {
+.Main .btns {
   display: flex;
   margin: 2rem;
   align-items: center;
   justify-content: space-around;
 }
 
-.Home .btns button {
+.Main .btns button {
   background-color: #f3969a;
   border-radius: 1rem;
   border: none;
@@ -30,7 +30,7 @@
   cursor: pointer;
 }
 
-.Home .youtube {
+.Main .youtube {
   align-self: center;
   margin-bottom: 2rem;
 }

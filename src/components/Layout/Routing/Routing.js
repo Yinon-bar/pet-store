@@ -5,17 +5,16 @@ import Products from "../../Pages/Products/Products";
 import Testimonials from "../../Pages/Teastimonials/Testimonials";
 
 function Routing() {
-  <>
-    <div className="test">dfgyhdfghdfftyh</div>
-    {/* <Routes>
+  return (
+    <Routes>
       <Route path="/home" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/testimonials" element={<Testimonials />} />
       <Route path="/products" element={<Products />} />
       <Route path="/" element={<Navigate to="/home" />} />
       <Route path="*" element={<Navigate to="/home" />} />
-    </Routes> */}
-  </>;
+    </Routes>
+  );
 }
 
 export default Routing;

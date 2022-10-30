@@ -4,7 +4,7 @@ function Products() {
   return (
     <div className="Product">
       {/*  */}
-      Products
+      <h1>Products</h1>
     </div>
   );
 }

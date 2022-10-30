@@ -26,3 +26,8 @@
 .hide {
   display: none;
 }
+
+.Links .active {
+  color: #609b8a;
+  font-weight: 600;
+}

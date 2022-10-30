@@ -1,7 +1,7 @@
 import "./Layout.css";
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
-import Main from "./Home/Main";
+import Main from "./Main/Main";
 import Links from "./Links/Links";
 
 function Layout() {
